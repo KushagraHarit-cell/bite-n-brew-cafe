@@ -111,14 +111,7 @@ export const MENU_ITEMS: MenuItem[] = [
     image: "https://images.unsplash.com/photo-1619535620164-2d2a4d0a8b0e?w=800&q=80",
     featured: true,
   },
-  {
-    id: "stuffed-garlic",
-    category: "Garlic Bread",
-    title: "Stuffed Garlic Bread",
-    price: "₹179",
-    description: "Garlic bread stuffed with cheese and herbs, oven-baked.",
-    image: "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=800&q=80",
-  },
+ 
   {
     id: "virgin-mojito",
     category: "Mocktails",
