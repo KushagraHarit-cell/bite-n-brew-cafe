@@ -61,31 +61,9 @@ export const MENU_ITEMS: MenuItem[] = [
     image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80",
     featured: true,
   },
-  {
-    id: "latte",
-    category: "Specialty Coffee",
-    title: "Caramel Latte",
-    price: "₹169",
-    description: "Premium arabica espresso with caramel and steamed milk.",
-    image: "https://www.google.com/imgres?q=caramel%20latte&imgurl=https%3A%2F%2Fdessertsanddrinks.com%2Fwp-content%2Fuploads%2F2023%2F10%2FCaramel-Brulee-Latte-3.jpg&imgrefurl=https%3A%2F%2Fdessertsanddrinks.com%2Fcaramel-brulee-latte%2F&docid=u6jS6eNk0fha3M&tbnid=LZ-wuqfDx_r8HM&vet=12ahUKEwiOnO3foaKVAxWQT2cHHVflLL8QnPAOegUIsQIQAA..i&w=1530&h=2295&hcb=2&ved=2ahUKEwiOnO3foaKVAxWQT2cHHVflLL8QnPAOegUIsQIQAA",
-  },
-  {
-    id: "club-sandwich",
-    category: "Sandwiches",
-    title: "Club Sandwich",
-    price: "₹199",
-    description: "Triple-decker with grilled chicken, fresh veggies, and mayo.",
-    image: "https://www.google.com/imgres?q=club%20sandwich&imgurl=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fwp-content%2Fuploads%2F2024%2F05%2Fvegetarian-club-sandwich-recipe.jpg&imgrefurl=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fveg-club-sandwich-recipe%2F&docid=X7NDlIjdKDC9yM&tbnid=fLf5p1zEzXAVpM&vet=12ahUKEwjss-eFoqKVAxVPzjgGHeZbMyoQnPAOegUIvQIQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwjss-eFoqKVAxVPzjgGHeZbMyoQnPAOegUIvQIQAA",
-    featured: true,
-  },
-  {
-    id: "grilled-sandwich",
-    category: "Sandwiches",
-    title: "Grilled Veg Sandwich",
-    price: "₹159",
-    description: "Crispy grilled bread with seasonal vegetables and cheese.",
-    image: "https://www.google.com/imgres?q=grill%20sandwich&imgurl=https%3A%2F%2Fwww.cookwithkushi.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fbest_grilled_margherita_cheese_sandwich_recipe.jpg&imgrefurl=https%3A%2F%2Fwww.cookwithkushi.com%2Fgrilled-margherita-sandwich%2F&docid=DZsm532kwzCU6M&tbnid=v4qPOILLhqY13M&vet=12ahUKEwj2g5CXoqKVAxX6-DgGHRPuFvkQnPAOegQIeRAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwj2g5CXoqKVAxX6-DgGHRPuFvkQnPAOegQIeRAA",
-  },
+  
+  
+  
   {
     id: "classic-burger",
     category: "Burgers",
@@ -102,15 +80,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "Double patty, melted cheese, special house sauce.",
     image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&q=80",
   },
-  {
-    id: "garlic-bread",
-    category: "Garlic Bread",
-    title: "Cheesy Garlic Bread",
-    price: "₹149",
-    description: "Buttery garlic bread topped with melted mozzarella.",
-    image: "https://www.google.com/imgres?q=cheesy%20garlic%20bread&imgurl=https%3A%2F%2Fi0.wp.com%2Fbinjalsvegkitchen.com%2Fwp-content%2Fuploads%2F2025%2F06%2FCheesy-Garlic-Bread-with-Chili-Basil-Oil-H1.jpg%3Ffit%3D600%252C900%26ssl%3D1&imgrefurl=https%3A%2F%2Fbinjalsvegkitchen.com%2Firresistible-cheesy-garlic-bread-with-chili-basil-oil%2F&docid=-esK7iFz8T4iSM&tbnid=cb6AOWeqqvQ92M&vet=12ahUKEwjT3OSnoqKVAxVKyjgGHfBkKeAQnPAOegUI7gEQAA..i&w=600&h=900&hcb=2&ved=2ahUKEwjT3OSnoqKVAxVKyjgGHfBkKeAQnPAOegUI7gEQAA",
-    featured: true,
-  },
+  
  
   {
     id: "virgin-mojito",
