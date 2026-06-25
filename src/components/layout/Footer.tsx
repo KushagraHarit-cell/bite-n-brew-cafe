@@ -1,6 +1,6 @@
 "use client";
 
-import { Instagram, Facebook, Phone, MapPin, Clock } from "lucide-react";
+import { Share2, MessageCircle, Phone, MapPin, Clock } from "lucide-react";
 import { SITE, NAV_LINKS } from "@/lib/constants";
 
 export function Footer() {
@@ -31,7 +31,7 @@ export function Footer() {
                 className="flex h-10 w-10 items-center justify-center rounded-full glass transition-colors hover:border-gold/40 hover:text-gold"
                 aria-label="Instagram"
               >
-                <Instagram className="h-4 w-4" />
+                <Share2 className="h-4 w-4" />
               </a>
               <a
                 href={SITE.social.facebook}
@@ -40,7 +40,7 @@ export function Footer() {
                 className="flex h-10 w-10 items-center justify-center rounded-full glass transition-colors hover:border-gold/40 hover:text-gold"
                 aria-label="Facebook"
               >
-                <Facebook className="h-4 w-4" />
+                <MessageCircle className="h-4 w-4" />
               </a>
               <a
                 href={SITE.social.whatsapp}

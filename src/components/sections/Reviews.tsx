@@ -6,7 +6,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { REVIEWS } from "@/lib/data";
 import { SITE } from "@/lib/constants";
 
-function ReviewCard({ review }: { review: (typeof REVIEWS)[0] }) {
+function ReviewCard({ review }: { review: (typeof REVIEWS)[number] }) {
   return (
     <div className="glass-light mx-3 w-[320px] shrink-0 rounded-2xl p-6 md:w-[380px] md:p-8">
       <Quote className="mb-4 h-8 w-8 text-gold/40" />
